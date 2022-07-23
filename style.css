@@ -1,0 +1,36 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(37, 1, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-larnU {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 150px;
+  height: 70px;
+  color: white;
+  border: none;
+  transition: 0.4s;
+}
+.btn-larnU:hover {
+  background-color: rgb(183, 0, 255);
+  box-shadow: 0 0 40px rgb(195, 95, 235);
+  transition: 0.4s;
+  animation: animacion ease 2s infinite normal none;
+}
+@keyframes animacion {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
