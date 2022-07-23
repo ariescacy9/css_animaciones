@@ -25,6 +25,7 @@ div {
   box-shadow: 0 0 40px rgb(195, 95, 235);
   transition: 0.4s;
   animation: animacion ease 2s infinite normal none;
+  color: cyan;
 }
 @keyframes animacion {
   from {
